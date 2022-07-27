@@ -1,0 +1,38 @@
+{
+  "name": "aos-with-nodejs-examples",
+  "version": "1.0.0",
+  "description": "Una página usando AOS con NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src",
+    "start": "node src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/josueSN1402/aos-with-nodejs-examples.git"
+  },
+  "keywords": [
+    "nodejs",
+    "aos",
+    "examples"
+  ],
+  "author": "Josue Sanchez Nima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josueSN1402/aos-with-nodejs-examples/issues"
+  },
+  "homepage": "https://github.com/josueSN1402/aos-with-nodejs-examples#readme",
+  "dependencies": {
+    "aos": "2.3.4",
+    "ejs": "3.1.8",
+    "express": "4.18.1",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "nodemon": "2.0.19"
+  }
+}
