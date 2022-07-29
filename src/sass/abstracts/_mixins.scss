@@ -1,0 +1,70 @@
+.d-flx {
+	display: flex;
+}
+
+.d-grd {
+	display: grid;
+}
+
+.d-b {
+	display: block;
+}
+
+.j-b {
+	justify-content: space-between;
+}
+
+
+
+.a-c {
+	align-content: center;
+}
+
+.all-c {
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+
+
+.f-col {
+	flex-direction: column;
+}
+
+
+
+.size-100p {
+	width: $sp100;
+	height: $sp100;
+}
+
+.size-100p-a {
+	width: $sp100;
+	height: auto;
+}
+
+
+
+.m-p-0 {
+	margin: 0;
+	padding: 0;
+}
+
+.m-a-0 {
+	margin: auto 0;
+}
+
+.m-0-a {
+	margin: 0 auto;
+}
+
+
+
+.p-r {
+	position: relative;
+}
+
+.p-a {
+	position: absolute;
+}

@@ -1,0 +1,11 @@
+@import './abstracts/_variables';
+
+@import './base/_normalize';
+@import './base/_reset';
+@import './base/_base';
+
+@import './abstracts/_mixins';
+
+@import './components/_navbar';
+@import './components/_main';
+@import './layout/_footer.scss';

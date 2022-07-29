@@ -1,0 +1,14 @@
+html,
+body {
+	font-size: 16px;
+	font-family: $font-primary;
+	overflow-x: hidden;
+}
+
+ul, ol, li, a {
+	list-style: none;
+	text-decoration: none;
+	color: $white;
+	margin: 0;
+	padding: 0;
+}

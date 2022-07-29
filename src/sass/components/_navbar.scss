@@ -1,0 +1,26 @@
+#navbar {
+	padding: 0 3%;
+	background-color: $bg-primary;
+	height: 5em;
+
+	h2 {
+		margin: auto 0 !important;
+	}
+}
+
+.nav__title {
+	color: $white;
+}
+
+.nav__item {
+	padding: 0 1em;
+}
+
+.nav__link {
+	color: $secondary;
+	margin: auto;
+
+	&:hover {
+		color: $white;
+	}
+}
