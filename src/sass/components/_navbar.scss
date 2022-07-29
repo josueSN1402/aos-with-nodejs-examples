@@ -19,6 +19,8 @@
 .nav__link {
 	color: $secondary;
 	margin: auto;
+	transition-property: color;
+	transition-duration: .3s;
 
 	&:hover {
 		color: $white;
