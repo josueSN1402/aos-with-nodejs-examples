@@ -1,18 +1,21 @@
 html,
 body {
-	font-size: 16px;
-	font-family: $font-primary;
-	overflow-x: hidden;
+    font-size: 16px;
+    font-family: $font-primary;
+    overflow-x: hidden;
 }
 
-body {	
-	background-color: #2d2f5b;
+body {
+    background-color: #2d2f5b;
 }
 
-ul, ol, li, a {
-	list-style: none;
-	text-decoration: none;
-	color: $white;
-	margin: 0;
-	padding: 0;
+ul,
+ol,
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: $white;
+    margin: 0;
+    padding: 0;
 }

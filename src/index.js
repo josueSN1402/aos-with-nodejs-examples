@@ -2,6 +2,7 @@ import express from 'express';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
+// eslint-disable-next-line import/extensions
 import indexRoutes from './routes/index.js';
 
 const app = express();
