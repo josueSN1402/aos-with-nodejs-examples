@@ -170,18 +170,18 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0; }
 
@@ -189,9 +189,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText; }
 
 /**
@@ -236,8 +236,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -246,15 +246,15 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto; }
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -263,7 +263,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /**
@@ -304,7 +304,9 @@ template {
 [hidden] {
   display: none; }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box; }
@@ -318,7 +320,10 @@ body {
 body {
   background-color: #2d2f5b; }
 
-ul, ol, li, a {
+ul,
+ol,
+li,
+a {
   list-style: none;
   text-decoration: none;
   color: #ffffff;
@@ -393,7 +398,7 @@ ul, ol, li, a {
   color: #e6e6e6;
   margin: auto;
   transition-property: color;
-  transition-duration: .3s; }
+  transition-duration: 0.3s; }
   .nav__link:hover {
     color: #ffffff; }
 
@@ -418,13 +423,13 @@ ul, ol, li, a {
   font-size: 3.5em;
   color: #ffffff;
   text-align: center;
-  padding-bottom: .5em; }
+  padding-bottom: 0.5em; }
 
 .main__section > a {
   color: #e6e6e6;
   font-size: 1.2em;
   transition-property: color;
-  transition-duration: .3s; }
+  transition-duration: 0.3s; }
   .main__section > a::after {
     content: '';
     position: absolute;
@@ -436,7 +441,7 @@ ul, ol, li, a {
     background-color: #e6e6e6;
     border-radius: 2px;
     transition-property: width, background-color;
-    transition-duration: .3s; }
+    transition-duration: 0.3s; }
   .main__section > a:hover {
     color: #ffffff; }
     .main__section > a:hover::after {
@@ -461,8 +466,6 @@ ul, ol, li, a {
   .main__section > div div:last-child {
     background-color: #1f2233;
     border: 7px solid #ffffff; }
-  .main__section > div code {
-    color: #ffffff; }
 
 .main__section .aos__example__box {
   height: 300px;
@@ -475,9 +478,14 @@ ul, ol, li, a {
 
 .code-container {
   color: deepskyblue; }
+  .code-container.m-l-10p .code-data {
+    padding-left: 10%; }
+  .code-container.m-l-15p .code-data {
+    padding-left: 15%; }
 
 .code-data {
-  color: lightskyblue; }
+  color: lightskyblue;
+  padding-left: 20%; }
 
 .code-class {
   color: coral; }

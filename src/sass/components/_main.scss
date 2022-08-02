@@ -81,10 +81,6 @@
             background-color: #1f2233;
             border: 7px solid $white;
         }
-
-        code {
-            color: $white;
-        }
     }
 
     .aos__example__box {
@@ -100,10 +96,19 @@
 
 .code-container {
     color: deepskyblue;
+
+    &.m-l-10p .code-data {
+        padding-left: 10%;
+    }
+
+    &.m-l-15p .code-data {
+        padding-left: 15%;
+    }
 }
 
 .code-data {
     color: lightskyblue;
+    padding-left: 20%;
 }
 
 .code-class {
