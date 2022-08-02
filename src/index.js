@@ -15,5 +15,5 @@ app.use(indexRoutes);
 
 app.use(express.static(join(__dirname, 'public')));
 
-app.listen(5000);
-console.log('Starting server on the port ', 5000);
+app.listen(process.env.PORT || 5000);
+console.log('Starting server on the port ', process.env.PORT || 5000);
